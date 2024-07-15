@@ -36,7 +36,7 @@ Aplicação para registro de cadastros e agendamentos de vagas. O sistema permit
 - Consulta de Agendamentos por Período e Solicitante
 
 ## Arquitetura
-O projeto segue os princípios de Clean Architecture, dividindo a aplicação em camadas distintas: Controller, Service, Repository e Model. Utilizamos JPA/Hibernate para a persistência dos dados e PrimeFaces para a camada de visualização.
+O projeto segue os princípios de MVC, dividindo a aplicação em camadas distintas: Controller, Service, Repository e Model. Utilizamos JPA/Hibernate para a persistência dos dados e PrimeFaces para a camada de visualização.
 
 ## Decisões de Implementação
 - Utilização de validações no Service para garantir integridade dos dados.
